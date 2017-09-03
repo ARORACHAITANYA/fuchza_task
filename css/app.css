@@ -1,0 +1,182 @@
+@media screen and (min-width: 39.9375em) {
+    body{
+      padding-top: 330px;
+         }
+}
+
+.contact{
+padding: 70px;
+}
+
+.sticky-shrinknav-menu {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  height: 3.75rem;
+  line-height: 3.75rem;
+  width: 100%;
+  background-color: rgba(23, 121, 186, 0.1);
+  transition: all 0.5s ease;
+}
+
+.sticky-shrinknav-menu li {
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.sticky-shrinknav-menu li:hover {
+  box-shadow: 0 0 0 1px #fefefe;
+}
+
+.sticky-shrinknav-menu a {
+  color: #fefefe;
+}
+
+.sticky-shrinknav-header-title {
+  transition: all 0.3s ease;
+  position: relative;
+  -webkit-transform: translateY(-1.875rem);
+      -ms-transform: translateY(-1.875rem);
+          transform: translateY(-1.875rem);
+  margin-bottom: 0;
+  font-size: 5rem;
+  color: #fefefe;
+}
+
+.sticky-shrinknav-header {
+  width: 100%;
+  height: 300px;
+  z-index: 3;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2196e3;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+body.sticky-shrinknav-wrapper {
+  padding-top: 130px;
+}
+
+body.sticky-shrinknav-wrapper .sticky-shrinknav-header {
+  height: 3.75rem;
+  background-color: rgba(23, 121, 186, 0.9);
+}
+
+body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-title {
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  transition: all 0.3s ease;
+}
+
+/*HOVER CARD START*/
+
+
+.card-product-hover-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+
+.card-product-hover {
+  position: relative;
+  line-height: 1.2rem;
+  transition: all 0.35s ease;
+}
+
+.card-product-hover-details {
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  padding: 1rem;
+}
+
+.card-product-hover-details > :last-child {
+  margin-bottom: 0;
+}
+
+.card-product-hover-price {
+  margin: 0.5rem 0;
+  font-weight: 700;
+  color: #1779ba;
+  font-size: #1779ba;
+}
+
+.card-product-hover-icons {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card-product-hover-icons a i {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  width: 2.5rem;
+  background-color: #fefefe;
+  text-align: center;
+  color: #0a0a0a;
+}
+
+.card-product-hover-icons a i:hover {
+  background-color: #8a8a8a;
+  color: #fefefe;
+  cursor: pointer;
+}
+
+.card-product-hover-icons a {
+  margin: 2px;
+  opacity: 0;
+  -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+          transform: translateY(50%);
+  transition: all 0.35s ease;
+}
+
+.card-product-hover:hover a,
+.card-product-hover.hover a {
+  transition: all 0.35s ease;
+  opacity: 1;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.card-product-hover:hover a:nth-child(2),
+.card-product-hover.hover a:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.card-product-hover:hover a:nth-child(3),
+.card-product-hover.hover a:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+/*HOVER CARD END*/
