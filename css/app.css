@@ -8,6 +8,11 @@
 padding: 70px;
 }
 
+.footer {
+  background: #fcfc03;
+  text-align: center;
+}
+
 .sticky-shrinknav-menu {
   position: absolute;
   left: 50%;
